@@ -1,0 +1,128 @@
+body{
+	margin:0;
+}
+header{
+	background-color: #218c74;
+	height: 100px;
+	background-attachment: fixed;
+
+}
+.logo img{
+	height: 60%;
+	width: 60%;
+	margin-top: -50px;
+}
+.logo{
+	float: left;
+	width: 40%;
+}
+.nav{
+	overflow: hidden;
+	padding-left: 100px;
+}
+.nav a{
+	float: left;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin:0 7px;
+	margin-top: 25px;
+	padding: 10px 15px;
+}
+.nav a:hover{
+	background-color: #2c2c54;
+	border-radius: 10px;
+}
+.active{
+	background-color: #2c2c54;
+	border-radius: 10px;
+}
+.search{
+	background-color: #b33939;
+	border-radius: 10px;
+}
+/*.........text area.........*/
+.text{
+	background-color: #535c68;
+	color: #dff9fb;
+	padding:20px 0;
+	height: 300px;
+}
+.text h1{
+	padding-top: 100px;
+	padding-left: 480px;
+	font-weight: bold;
+	color: #ecf0f1;
+}
+
+/*.......blog........*/
+.blog{
+	margin:50px 0;
+}
+.blog img{
+	float: left;
+	margin-top: 30px;
+}
+.txt{
+	overflow: hidden;
+	padding-left: 60px;
+}
+.txt a {
+	text-decoration: none;
+}
+.txt h4{
+	color: #2980b9;
+}
+.txt h6{
+	color: #3498db;
+}
+.txt p{
+	color: #2c3e50;
+	font-size: 17px;
+}
+.txt button{
+	padding: 8px 15px;
+	background-color: #c0392b;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	border:none;
+	border-radius: 5px;
+}
+.txt button:hover{
+	background-color: #e74c3c;
+}
+
+
+/*........Footer........*/
+footer{
+	background-color: #2c2c54;
+	height: 100px;
+	margin-top: 100px;
+}
+.icon{
+	width: 20%;
+    margin-left: 42%;
+}
+.icon ul li{
+	list-style: none;
+	display: inline;
+	font-size: 20px;
+}
+.icon ul li i{
+	color: white;
+	margin-top: 10px;
+	padding: 10px 5px;
+}
+.link{
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+
+
+
+
+
+

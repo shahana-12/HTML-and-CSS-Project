@@ -1,0 +1,152 @@
+body{
+	margin:0;
+}
+.container{
+
+}
+header{
+	background-color: #218c74;
+	height: 100px;
+	background-attachment: fixed;
+
+}
+.logo img{
+	height: 60%;
+	width: 60%;
+	margin-top: -50px;
+}
+.logo{
+	float: left;
+	width: 40%;
+}
+.nav{
+	overflow: hidden;
+	padding-left: 100px;
+}
+.nav a{
+	float: left;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin:0 7px;
+	margin-top: 25px;
+	padding: 10px 15px;
+}
+.nav a:hover{
+	background-color: #2c2c54;
+	border-radius: 10px;
+}
+.active{
+	background-color: #2c2c54;
+	border-radius: 10px;
+}
+.search{
+	background-color: #b33939;
+	border-radius: 10px;
+}
+
+
+/*......map area.......*/
+.contact{
+	height: 500px;
+	padding-top: 100px;
+	padding-bottom: 600px;
+	background-color: #bdc3c7;
+}
+.map{
+	position:relative;
+	text-align:left;
+	height:375px;
+	width:321px;
+	float: left;
+	margin-left: 20px;
+}
+.map h3{
+	font-weight: bold;
+	font-family: arial;
+	color: #27ae60;
+	margin-left: 10px;
+}
+.map iframe{
+	border: 2px solid #1abc9c;
+	border-radius: 7px;
+}
+.frm{
+	overflow: hidden;
+}
+.frm form{
+	margin-left: 100px;
+}
+.frm form input[type=text],
+.frm form input[type=number],
+.frm form input[type=email]{
+	width: 50%;
+	padding: 10px 10px;
+	font-size: 20px;
+	border:none;
+	border-radius: 4px;
+}
+.frm form input[type=submit]{
+	width: 50%;
+	padding: 10px 0px;
+	font-weight: bold;
+	font-size: 20px;
+	border:none;
+	border-radius: 7px;	
+	background-color: #27ae60;
+	color: #ecf0f1;
+}
+.frm form input[type=submit]:hover{
+	background-color: #2ecc71;
+}
+.frm form textarea{
+	border:none;
+  width: 95%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+.frm form textarea::placeholder{
+	font-size: 20px;
+}
+
+
+
+
+
+
+/*........Footer........*/
+footer{
+	background-color: #2c2c54;
+	height: 100px;
+}
+.icon{
+	width: 20%;
+    margin-left: 42%;
+}
+.icon ul li{
+	list-style: none;
+	display: inline;
+	font-size: 20px;
+}
+.icon ul li i{
+	color: white;
+	margin-top: 10px;
+	padding: 10px 5px;
+}
+.link{
+	font-size: 15px;
+	color: white;
+	text-align: center;
+}
+
+
+
+
+
+
