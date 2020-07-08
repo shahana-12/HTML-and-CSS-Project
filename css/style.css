@@ -59,6 +59,15 @@ header{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.image .text h1{
+	font-size:50px; 
+	color: #ccae62;
+}
+.image .text p{
+	color: #FD7272; 
+	font-size: 20px; 
+	font-style: italic;
+}
 
 .book{
 	margin-top: 100px;
@@ -110,7 +119,105 @@ footer{
 	color: white;
 	text-align: center;
 }
-
+/*responsive.............*/
+@media (max-width: 1250px) and (min-width: 990px){
+	.logo{
+		width: 30%;
+	}
+	.logo img{
+		height: 80%;
+		width: 80%;
+		margin-top: -50px;
+	}
+	.book img{
+		width: 90%;
+	}
+}
+@media (max-width: 989px) and (min-width: 770px){
+	.logo{
+		width: 20%;
+	}
+	.logo img{
+		height: 100%;
+		width: 100%;
+		margin-top: 2%;
+	}
+	.book img{
+		width: 90%;
+	}
+	.nav{
+		padding-left: 5%;
+	}
+	.nav a{
+		font-size: 13px;
+	}
+	.image .text h1{
+		font-size: 40px;
+	}
+	.image .text p{
+		font-size: 15px; 
+	}
+}
+@media (max-width: 769px) and (min-width: 500px){
+	.logo{
+		width: 20%;
+	}
+	.logo img{
+		height: 100%;
+		width: 100%;
+		margin-top: 2%;
+	}
+	.book img{
+		width: 50%;
+	}
+	.nav{
+		padding-left: 2%;
+	}
+	.nav a{
+		font-size: 10px;
+		padding: 8px 10px;
+		margin-left: 2px;
+	}
+	.image .text h1{
+		font-size: 40px;
+	}
+	.image .text p{
+		font-size: 15px; 
+	}
+	.row{
+		margin: 50px 50px;
+	}
+}
+@media (max-width: 499px) and (min-width: 350px){
+	.logo{
+		width: 20%;
+	}
+	.logo img{
+		height: 100%;
+		width: 100%;
+		margin-top: 2%;
+	}
+	.book img{
+		width: 50%;
+	}
+	.nav{
+		padding-left: 2%;
+	}
+	.nav a{
+		font-size: 10px;
+		padding: 8px 8px;
+		margin-left: -2px;
+	}
+	.image .text h1{
+		font-size: 40px;
+	}
+	.image .text p{
+		font-size: 15px; 
+	}
+	.row{
+		margin: 50px 50px;
+	}
+}
 
 
 
